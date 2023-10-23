@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <div class="card-container">
+      <div class="logo">
+        <img class="card-image" src="/unsplash.jpg" alt="nice utility room">
+        <div class="company">ODIN</div>
+      </div>
+    </div>
+    <div class="right">
+      <section class="service">
+        <p class="first-line">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
+        <p class="second-line">Sign up <em>now</em> to get started.</p>
+        <p>You <em>know</em> you want to.</p>
+      </section>
+      <main class="form">
+        <form>
+          <div class="info">
+            <h2>Let's do this!</h2>
+            <div class="input-format">
+              <label for="first-name">FIRST NAME</label>
+              <input type="text" name="first-name" id="first-name" minlength="3" required>
+            </div>
+            <div class="input-format">
+              <label for="last-name">LAST NAME</label>
+              <input type="text" name="last-name" id="last-name" minlength="3" required>
+            </div>
+            <div class="input-format">
+              <label for="email">EMAIL</label>
+              <input type="email" name="email" id="email" minlength="8" required>
+            </div>
+            <div class="input-format">
+              <label for="phone-number">PHONE NUMBER</label>
+              <input type="number" name="phone-number" id="phone-number">
+            </div>
+            <div class="input-format">
+              <label for="password">PASSWORD</label>
+              <input type="password" name="password" id="password" class="error" minlength="6" required>
+            </div>
+            <div class="input-format">
+              <label for="confirm-password">CONFIRM PASSWORD</label>
+              <input type="password" name="confirm-password" id="confirm-password" class="error" minlength="6" required>
+            </div>
+            <div class="passwords-match" id="match"></div>
+          </div>
+          <input type="submit" value="Create Account" name="form" id="submit">
+        </form>
+      </main>
+      <section class="log-in">
+        <p>Already have an account? <a href="/">Log in</a></p>
+      </section>
+    </div>
+  </div>
+</body>
+</html>
